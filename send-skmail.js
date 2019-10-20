@@ -22,8 +22,8 @@
 		const subject = decodeURI(querySplit[1].replace('player=', ''));
 		const lang = decodeURI(querySplit[2].replace('lang=', ''));
 
-		const messageEN = "Hello my friend,\n\nI'm from the Romania U21 team staff.\nI would kindly ask you to give us the [b][player][/b]'s skills.\nI wish you all the best :).\n\nRomania U21!".replace('[player]', subject);
-		const messageRO = "Salutare,\n\nSunt membru in echipa de scouting a nationalei de juniori.\nSelectionetul nostru ne-a rugat sa actualizam baza de date cu jucatori. Prin urmare te rog sa imi trimiti skilurilui lui [b][player][/b]\nMultumesc si mult success :).\n\nHAI ROMANIA!".replace('[player]', subject);
+		const messageEN = "Hello my friend,\n\nI'm from the Romania team staff.\nI would kindly ask you to give us the [b][player][/b]'s skills.\nI wish you all the best :).\n\nRomania!".replace('[player]', subject);
+		const messageRO = "Salutare,\n\nSunt membru in echipa de scouting a nationalei.\nSelectionetul nostru ne-a rugat sa actualizam baza de date cu jucatori. Prin urmare te rog sa imi trimiti skilurilui lui [b][player][/b]\nMultumesc si mult success :).\n\nHAI ROMANIA!".replace('[player]', subject);
 		
 		let message = messageEN;
 		if(lang !== 'EN') {
