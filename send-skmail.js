@@ -6,7 +6,7 @@
 // @author       You
 // @run-at       document-end
 // @require      https://code.jquery.com/jquery-3.2.1.min.js
-// @match        http://sokker.org/mailbox/*
+// @match        https://sokker.org/mailbox/*
 // @grant        none
 // ==/UserScript==
 
